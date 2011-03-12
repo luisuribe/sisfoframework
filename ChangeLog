@@ -1,0 +1,19 @@
+2008-09-30
+1) Se corrige bug transpaso de conexión entre asociaciones con otras tablas
+2) Se agrega soporte para MySQL vía MDB2
+
+2008-09-24
+1) Se agrega soporte definitvo para conexiones a diferentes bases de datos, ver el Modelo y el campo "protected $usaConexion"
+
+2008-09-23
+1) Se agrega soporte para llaves compuestas en el modelo
+2) Se agrega soporte para llaves foráneas compuestas
+
+2008-09-16
+1) Se empieza a agregar soporte para conexiones a diferentes bases de datos
+
+2008-09-13
+1) Validación automática de datos pre-inserción según la definición de los cambos en la tabla de la DB.
+2) Manejo de errores fatales con ventanas amigables al usuario y con enlace a la herramienta de reporte de Bugs de Sisfo.
+3) Se incorpora método lanzarEnError('accion'), después les envío un ejemplo con esta importante característica.
+4) Método mejorado de paginación _paginar(), tan simple como solamente invocarlo !

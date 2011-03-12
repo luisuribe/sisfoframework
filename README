@@ -1,0 +1,7 @@
+Sisfo Framework 1.0
+Orientado a Objetos y basado en PHP5 es una herramienta muy liviana que se puede integrar en cualquiera de sus proyectos PHP. Puede encargarse solamente de conexiones a la base de datos o mejor aun, como un patrón tipo ActiveRecord.
+
+Para empezar a trabajar con SF1.0 usted debe tener una instalación de PHP con soporte PostgreSQL u Oracle.
+
+1. Se requiere PEAR: MDB2, Pager, MDB2_Driver_pgsql, MDB2_Driver_oci8 (últimas versiones estables)
+2. Configurar lib/conf.main.php 
